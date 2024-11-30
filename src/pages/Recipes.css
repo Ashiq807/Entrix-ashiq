@@ -1,0 +1,9 @@
+.recipe-mob {
+    padding-bottom: 8rem;
+}
+
+@media (max-width: 768px) {
+    .recipe-mob {
+        padding-bottom: 25rem;
+    }
+}

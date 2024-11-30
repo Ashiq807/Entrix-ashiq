@@ -12,6 +12,7 @@ export default [
       ecmaVersion: 2020,
       globals: globals.browser,
       parserOptions: {
+        parser: '@babel/eslint-parser',
         ecmaVersion: 'latest',
         ecmaFeatures: { jsx: true },
         sourceType: 'module',
@@ -33,6 +34,11 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
+      'react/prop-types': 'off',
+      '@typescript-eslint/no-var-requires': 'off',
+      '@typescript-eslint/explicit-module-boundary-types': 'off',
+      'no-undef': 'off',
+      'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
     },
   },
 ]

@@ -1,0 +1,15 @@
+.form-control:focus {
+    outline: none;
+    border-color: transparent;
+    box-shadow: none;
+}
+.form-outer {
+    border-bottom: 2px solid lightgray;
+    width: 35%;
+}
+::placeholder {
+    color: gray !important;
+}
+.clickable {
+    cursor: pointer;
+}
